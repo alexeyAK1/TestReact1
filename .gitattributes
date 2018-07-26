@@ -1,0 +1,18 @@
+* text=auto
+
+# force text
+*.html text
+*.js text
+*.css text
+
+# Windows files (need CRLF)
+*.sin text eol=crlf
+*.bat eol=crlf
+
+# Unix files (need LF)
+*.sh eol=lf
+
+# binary files
+*.jpg -text
+*.gif -text
+*.png -text

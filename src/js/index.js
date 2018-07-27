@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom';
 
 ReactDOM.render(
 	<div>
-		Test label 1
+		Test label 2
 	</div>,
 	document.getElementById('root')
 );
